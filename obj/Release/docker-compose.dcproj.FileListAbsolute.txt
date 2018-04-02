@@ -1,0 +1,1 @@
+C:\Users\PW\source\repos\LoginService\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache

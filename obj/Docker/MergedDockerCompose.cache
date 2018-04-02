@@ -1,0 +1,11 @@
+services:
+  loginservice:
+    build:
+      context: C:\Users\PW\source\repos\LoginService
+      dockerfile: LoginService/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: loginservice
+    ports:
+    - 80/tcp
+version: '3.0'
