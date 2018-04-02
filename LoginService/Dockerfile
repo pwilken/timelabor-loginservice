@@ -4,8 +4,8 @@ EXPOSE 80
 
 FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /src
-COPY LoginService.sln ./
-COPY LoginService/LoginService.csproj LoginService/
+COPY ../LoginService.sln ./
+COPY LoginService.csproj LoginService/
 RUN dotnet restore -nowarn:msb3202,nu1503
 COPY . .
 WORKDIR /src/LoginService
