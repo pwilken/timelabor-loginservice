@@ -7,7 +7,7 @@ services:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_loginservice$
     volumes:
-      - C:\Users\PW\source\repos\LoginService\LoginService:/app
+      - C:\Projects\C#\timelabor-loginservice\LoginService:/app
       - C:\Users\PW\vsdbg\vs2017u5:/remote_debugger:ro
 #$nuget_volume_mapping_loginservice$
     entrypoint: tail -f /dev/null

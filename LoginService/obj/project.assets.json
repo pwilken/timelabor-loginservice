@@ -13130,11 +13130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PW\\source\\repos\\LoginService\\LoginService\\LoginService.csproj",
+      "projectUniqueName": "C:\\Projects\\C#\\timelabor-loginservice\\LoginService\\LoginService.csproj",
       "projectName": "LoginService",
-      "projectPath": "C:\\Users\\PW\\source\\repos\\LoginService\\LoginService\\LoginService.csproj",
+      "projectPath": "C:\\Projects\\C#\\timelabor-loginservice\\LoginService\\LoginService.csproj",
       "packagesPath": "C:\\Users\\PW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PW\\source\\repos\\LoginService\\LoginService\\obj\\",
+      "outputPath": "C:\\Projects\\C#\\timelabor-loginservice\\LoginService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
